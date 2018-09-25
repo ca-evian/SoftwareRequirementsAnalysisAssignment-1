@@ -1,0 +1,142 @@
+1984年在美国国防部的支持下，卡内基美隆大学（Carnegie Mellon University, CMU）成立了软件工程学院（Software Engineering Institute, SEI）。1986年11月，在Mitre公司的协助下，开始发展一套帮助软件业者，改善软件流程的流程成熟度架构（process maturity framework）。
+
+卡内基美隆大学的软件工程研究所在1987年完成以软件流程评鉴（Software Process Assessment, SPA）与软件能力评估（Software Capability Evaluation, SCE）为基础的能力成熟度模型（CMM, Capability Maturity Model）。1987年6月，SEI发表软件流程成熟度架构摘要，9月出版基本成熟度问卷，协助业者找出软件流程需要改善之处。
+
+1991年，SEI正式发表软件能力成熟度模型CMM 1.0，并在隔年4月举办座谈会。在综合超过400位软件专家的意见之后，又于1993年发表SW-CMM 1.1修正版。SW-CMM 的核心是以软件开发流程作为全面品质管理（Total Quality Management, TQM）改善的架构，提升组织管理软件开发的能力。SW-CMM的成功，促使其他学门也相继开发出类似的流程改善模型；例如，系统工程（SE-CMM）、集成产品开发（IPD-CMM）、需求工程、人力资源、软件采购等，都从CMM 衍生出一套改善模型。
+
+一般认为，CMM并不涉及到具体的软件流程的细节，仅仅是关注了制定、管理、控制软件流程所必须关注的管理要点，但是在某些情况下，CMM的确暗含了某种脱胎于国防工程的过程样式，在指导商业企业依据SW-CMM/CMMI等进行流程改进时，必须充分了解到这一点。
+
+它用于衡量软件企业的开发管理水平，既可作为软件发包方评估承包方执行能力的参考标准，也可以被软件企业作为软件流程改进工作的参考模型。实际上，CMM已经发展成为了众多标准的集合体，比如关于人力资源的People-CMM，关于软件采办的SA-CMM等等。
+
+若要开发出高效率、高质量及低成本的软件，就必须从改善软件生产流程着手。这是CMMI的基本信仰，认为流程的能力，会影响到最终产品的品质。因此，CMM初始的作者－Watt Humphrey大量借用许多TQM与Philip Crosby的品质管理成熟度矩阵，作为改善软件开发的基础。
+新的品质管理标准，如EIA/IS 731的出现，也刺激了CMM的发展。从1997年开始，SEI开始新的整合计划，并在2000年8月发表了CMMI-SE/SW 1.0版本，提供一个整合性的架构，将当时的SW-CMM v2.0 draft C（软件能力成熟度模型）、SECM（系统工程能力模型）与IPD-CMM v0.98（集成产品开发能力成熟度模型）等三种模型，整合到统一的框架内，并进一步强化对某些流程领域（例：需求、风险、工程管理）的重视。
+1984：成立Software Engineering Institute（SEI）。
+1987：发表CMM技术报告初稿。
+1989：发表第一本有关软件成熟度架构的著作。
+1991：发表CMM 1.0。
+1993/1994：发表CMM 1.1以及PSP（Personal Software Process）。
+1995：发表各种专门化的CMM，包括针对软件采购（SA-CMM）、系统工程（SE-CMM）、集成产品开发（IPD-CMM），以及人力资源管理（People-CMM）。
+1996：TSP（Team Software Process）发表。
+1997：新的品质管理标准，如EIA/IS 731出现；开始CMMI整合计划。
+2000：发表CMMI 1.0。
+2001：发表CMMI 1.1。
+2006：发表CMMI 1.2。
+2010：发表CMMI 1.3。
+历经20年的沿革，SEI不断地延展CMM意涵与适用性，如今的CMMI模式包含了系统工程（Systems Engineering, SE）、软件工程（Software Engineering, SW）、整合产品与流程发展（Integrated Product and Process Development, IPPD），以及委外作业（Supplier Sourcing, SS）四个专业领域。不只涵盖原有的CMM，还将系统工程标准EIA 731、国际品保ISO等标准整合起来。
+
+“CMMI”目前致力于三个感兴趣的区域：
+产品和服务开发——希迈开发方面（英文：CMMI for Development，简称 CMMI-DEV 或“希迈－开”），
+服务创建、管理和交付——希迈服务方面（英文：CMMI for Service，简称 CMMI-SVC 或“希迈－服”），以及
+产品和服务采购——希迈采购方面（英文：CMMI for Acquisition，简称 CMMI-ACQ 或“希迈－采”）。
+
+在“CMMI for Development”中的成熟度级别
+
+CMMI实施时有连续式和阶段式两种改进实施方式。在阶段式中有五个等级。由于第一级“初始级”是组织的初始状态（可以认为每一个没有通过CMMI评估的公司或组织都处于“初始级”），故成熟度级别评定从2到5级被授予。下面的过程区域及其成熟度级别是为CMMI开发方面模型而列出的：
+成熟度级别2 － 已管理
+CM - 配置管理（Configuration Management）
+MA - 度量和分析（Measurement and Analysis）
+PMC - 项目监控（Project Monitoring and Control）
+PP - 项目计划（Project Planning）
+PPQA - 过程和产品质量保证（Process and Product Quality Assurance）
+REQM - 需求管理（Requirements Management）
+SAM - 供应商协议管理（Supplier Agreement Management）
+
+成熟度级别3 － 已定义
+DAR - 决策分析和决议（Decision Analysis and Resolution）
+IPM - 集成的项目管理（Integrated Project Management）
+OPD - 组织级过程定义（Organizational Process Definition）
+OPF - 组织级过程聚焦（Organizational Process Focus）
+OT - 组织级培训（Organizational Training）
+PI - 产品集成（Product Integration）
+RD - 需求开发（Requirements Development）
+RSKM - 风险管理（Risk Management）
+TS - 技术解决方案（Technical Solution）
+VAL - 验证（Validation）
+VER - 核查（Verification）
+成熟度级别4 － 已量化地管理
+OPP - 组织级过程绩效（Organizational Process Performance）
+QPM - 量化的项目管理（Quantitative Project Management）
+成熟度级别5 － 优化中
+CAR - 因果分析和决议（Causal Analysis and Resolution）
+OPM - 组织级绩效管理（Organizational Performance Management）
+
+
+CMMI服务方面中成熟度级别
+下面的过程区域及其成熟度级别是为CMMI服务方面模型列出的：
+成熟度级别2 － 已管理
+CM - 配置管理（Configuration Management）
+MA - 度量和分析（Measurement and Analysis）
+PPQA - 过程和项目质量保证（Process and Product Quality Assurance）
+REQM - 需求管理（Requirements Management）
+SAM - 供应商协议管理（Supplier Agreement Management）
+SD - 服务交付（Service Delivery）
+WMC - 工作监控（Work Monitoring and Control）
+WP - 工作计划（Work Planning）
+成熟度级别3 － 已定义
+CAM - 容量和可用性管理（Capacity and Availability Management）
+DAR - 决策分析和决议（Decision Analysis and Resolution）
+IRP - 突发事件解决和预防（Incident Resolution and Prevention）
+IWM - 集成的工作管理（Integrated Work Management）
+OPD - 组织级过程定义（Organizational Process Definition）
+OPF - 组织级过程聚焦（Organizational Process Focus）
+OT - 组织上的培训（Organizational Training）
+RSKM - 风险管理（Risk Management）
+SCON - 服务持续性（Service Continuity）
+SSD - 服务系统开发（Service System Development）
+SST - 服务系统转变（Service System Transition）
+STSM - 战略服务管理（Strategic Service Management）
+成熟度级别4 － 已量化地管理
+OPP - 组织级过程绩效（Organizational Process Performance）
+QWM - 量化的工作管理（Quantitative Work Management）
+成熟度级别5 － 优化中
+CAR - 因果分析和决议（Causal Analysis and Resolution）
+OPM - 组织级绩效管理（Organizational Performance Management）
+
+
+CMMI采购方面中的成熟度模型
+下面的过程区域及其成熟度级别为CMMI采购方面模型列出：
+成熟度级别2 － 已管理
+AM - 协议管理（Agreement Management）
+ARD - 采购需求开发（Acquisition Requirements Development）
+CM - 配置管理（Configuration Management）
+MA - 度量和分析（Measurement and Analysis）
+PMC - 项目监控（Project Monitoring and Control）
+PP - 项目计划（Project Planning）
+PPQA - 过程和产品质量保证（Process and Product Quality Assurance）
+REQM - 需求管理（Requirements Management）
+SSAD - 诱导和供应商协议开发（Solicitation and Supplier Agreement Development）
+成熟度级别3 － 已定义
+ATM - 采购技术管理（Acquisition Technical Management）
+AVAL - 采购验证（Acquisition Validation）
+AVER - 采购核查（Acquisition Verification)
+DAR - 决策分析和决议（Decision Analysis and Resolution）
+IPM - 集成的项目管理（Integrated Project Management）
+OPD - 组织级过程定义（Organizational Process Definition）
+OPF - 组织级过程聚焦（Organizational Process Focus）
+OT - 组织上的培训（Organizational Training）
+RSKM - 风险管理（Risk Management）
+成熟度级别4 － 已量化地管理
+OPP - 组织级过程绩效（Organizational Process Performance）
+QPM - 量化的项目管理（Quantitative Project Management）
+成熟度级别5 － 优化中
+CAR - 因果分析和决议（Causal Analysis and Resolution）
+OPM - 组织级绩效管理（Organizational Performance Management）
+
+以下是在https://sas.cmmiinstitute.com/pars/pars.aspx的搜索结果（仅中国,2018年,CMMI-DEV v1.3,Maturity Level 5的部分结果）
+
+Aerospace Winhong Technology Ltd.
+AFCA (Tianjin) Information Technology Co., Ltd 
+ANHUI JINGQI NETWORK TECHNOLOGY, INC. 
+ANHUI LONGCOM IOT CO. LTD 
+Anhui Zhongke Meiluo Info-Tech Co., Ltd 
+ArcherMind Technology (Nanjing) Co., Ltd. 
+Azeus Systems Holdings Limited 
+Beijing Thunisoft Information Technology Co., Ltd. 
+Beijing E-hualu Information Technology Co., Ltd. 
+BEIJING FUJITSU SYSTEM ENGINEERING CO.,LTD 
+Beijing HuaZhaoYiLian Information Technology Co., Ltd. 
+Beijing Join Bright Digital Power Technology CO., LTD. 
+Beijing Kailash Information Technology Co., Ltd. 
+
+
+
